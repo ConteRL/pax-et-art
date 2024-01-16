@@ -1,27 +1,15 @@
 <template>
-  <header>
-    <h1>Pax et Art</h1>
-
-    <div>
-      <ul>
-        <li>Inicio</li>
-        <li>Orações</li>
-        <li>Santos</li>
-        <li>Filmes</li>
-        <li>Sobre</li>
-      </ul>
-    </div>
-
-    <div>
-      <img src="./assets/github.svg" alt="Logo Github">
-      <span>/ConteRL</span>
-    </div>
-  </header>
+  <NavBar/>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    NavBar
+  }
 }
 </script>
 
@@ -32,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
