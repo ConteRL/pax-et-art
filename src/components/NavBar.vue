@@ -71,5 +71,6 @@ a.active {
 
 #navbar {
   font-family: 'Galada';
+  height: 10%;
 }
 </style>
